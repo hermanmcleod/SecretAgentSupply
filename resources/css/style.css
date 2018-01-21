@@ -1,0 +1,88 @@
+html	{
+	font-size: 18px;
+}
+
+body 	{
+	color: white;
+	font-family: helvetica;
+}
+
+header 	{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.container 	{
+	width: 960px;
+	display: flex;
+}
+
+.container header {
+	justify-content: flex-start;
+}
+
+#logo img {
+	height: 1.5rem;
+	margin: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+#logo_text {
+	align-self: center;
+	font-size: 1rem;
+}
+
+.banner 	{
+	height: 25rem;
+	background-image: url(../images/moto.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#banner_title	{
+	background-color: black;
+	width: 20rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 9rem;
+}
+
+#banner_title p {
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 0.25rem;
+	margin-left: 3rem;
+}
+
+#banner_title h2 {
+	padding: 0px;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: firebrick;
+}
+
+nav .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav span {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
