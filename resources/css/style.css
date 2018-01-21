@@ -49,21 +49,20 @@ header 	{
 	display: flex;
 	flex-direction: column;
 	margin-top: 9rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 3rem;
 }
 
 #banner_title p {
 	font-weight: bold;
-	margin-top: 2rem;
 	margin-bottom: 0.25rem;
-	margin-left: 3rem;
 }
 
 #banner_title h2 {
 	padding: 0px;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-left: 3rem;
-	margin-bottom: 2rem;
 }
 
 nav {
@@ -163,4 +162,71 @@ footer {
 footer p {
 	text-align: left;
 	align-self: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	#glasses.item {
+		display: none;
+	}
+
+	.item {
+		width: 47%;
+	}
+
+	#nav1 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+
+	#nav2 {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 470px) {
+
+	#banner_title p {
+		font-size: 0.77rem;
+
+	}
+
+	#banner_title h2 {
+		font-size: 1rem;
+	}
+
+	#banner_title {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		padding-left: 2rem;
+		margin-top: 10rem;
+	}
+
+	.banner {
+		height: 15rem;
+	}
+
+	.item {
+		width: 90%;
+	}
+
+	#watch.item {
+		display: none;
+	}
+
+	#details {
+		flex-direction: column;
+	}
+
+	.detail_box {
+		width: 90%;
+		margin-top: 0.5rem;
+	}
+
+	footer .container {
+		justify-content: center;
+	}
 }
